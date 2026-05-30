@@ -37,6 +37,20 @@ Airlines receive large volumes of customer feedback through reviews and ratings,
 - Text analytics helped identify recurring dissatisfaction themes that were not fully visible from ratings alone.
 - Machine learning models provided a structured way to classify recommendation outcomes and interpret key drivers.
 
+## Key Visuals
+
+### Recommendation Rate by Service Theme
+![Recommendation Rate by Service Theme](visuals/recommendation-rate-by-service-theme.png)
+
+### Model Performance Comparison
+![Model Performance Comparison](visuals/model-performance-comparison.png)
+
+### Predicted Probability Distribution
+![Predicted Probability Distribution](visuals/svm-predicted-probability-distribution.png)
+
+### Service Feature Correlation Heatmap
+![Service Feature Correlation Heatmap](visuals/service-feature-correlation-heatmap.png)
+
 ## Business Recommendations
 
 - Prioritise service improvements around the most common negative review themes.
