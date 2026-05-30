@@ -58,6 +58,12 @@ Airlines receive large volumes of customer feedback through reviews and ratings,
 - Use sentiment analysis to flag high-risk dissatisfaction patterns earlier.
 - Combine structured ratings with review text for a more complete view of customer satisfaction.
 
+## Report
+
+The full project report is available in the `report/` folder:
+
+[View Full Report](report/Airline-Customer-Satisfaction-Report.pdf)
+
 ## Repository Structure
 
 ```text
