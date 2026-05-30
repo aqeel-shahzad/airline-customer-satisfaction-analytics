@@ -1,11 +1,6 @@
-# =========================================================
-# ITAO7105 Data Mining
-# Assignment: Descriptive, Predictive, and Text Analytics for Airline Customer Reviews
-# Student: Aqeel Shahzad
-# =========================================================
 
 # =========================================================
-# 0. COLAB SETUP
+# 0. SETUP
 # =========================================================
 !pip -q install vaderSentiment transformers torch accelerate sentencepiece
 
