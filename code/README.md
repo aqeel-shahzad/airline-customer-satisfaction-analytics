@@ -16,4 +16,4 @@ The analysis covers:
 The main notebook/script is:
 
 ```text
-airline_customer_satisfaction_analysis.ipynb
+airline_customer_satisfaction_analysis.py
