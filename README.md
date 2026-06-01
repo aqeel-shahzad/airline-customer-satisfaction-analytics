@@ -11,6 +11,7 @@ This project analyses airline customer review data to understand what drives cus
 - Combined numerical ratings, sentiment analysis, text analytics, and predictive modelling in one workflow.
 - Compared multiple classification models to evaluate recommendation prediction performance.
 - Included robustness testing, threshold analysis, contradiction analysis, and model limitation discussion.
+- Built and compared classification models, with the best-performing model achieving 96.3% accuracy and 98.8% ROC-AUC in predicting recommendation behaviour.
 - Python implementation received full marks in academic evaluation.
 
 ## Business Problem
@@ -44,11 +45,26 @@ Airlines receive large volumes of customer feedback through reviews and ratings,
 
 ## Analytical Outcomes and Decision Value
 
-- Identified service themes associated with higher and lower recommendation rates.
-- Compared classification models to assess how reliably recommendation behaviour could be predicted.
-- Used sentiment analysis to capture dissatisfaction signals beyond numerical ratings.
-- Highlighted inconsistencies between rating scores and recommendation behaviour.
-- Translated analytical findings into practical customer experience recommendations.
+- Designed classification models to predict whether customers would recommend an airline based on structured service ratings and written review text.
+- The best-performing model achieved 96.3% accuracy and 98.8% ROC-AUC, showing that customer feedback data can provide strong signals for recommendation behaviour.
+- Model outputs were interpreted in business terms to identify likely promoters, dissatisfied customers, and customer experience improvement priorities.
+
+## Business Recommendations
+
+- **Prioritise recurring service failure themes.**  
+  Reviews linked to refund, cancellation, and delay themes showed much lower recommendation rates than service-positive themes such as food, seat, and staff. Airlines should use these themes as early-warning categories for customer experience improvement and operational review.
+
+- **Treat value for money as a key recommendation driver.**  
+  Value-for-money showed strong relationships with overall satisfaction and other service ratings. Airlines should monitor this as a core customer experience KPI, especially when evaluating pricing, service quality, and perceived fairness.
+
+- **Use sentiment analysis to detect dissatisfaction earlier.**  
+  Text-based sentiment signals helped identify negative customer experiences that may not be fully captured by numerical ratings alone. Airlines could use sentiment monitoring to flag high-risk reviews and identify emerging complaint patterns.
+
+- **Combine structured ratings with review text for better customer insight.**  
+  The best-performing models showed that recommendation behaviour can be predicted more effectively when numerical ratings and written feedback are analysed together. Airlines should avoid relying only on rating scores and instead use a combined view of customer feedback.
+
+- **Translate model outputs into service improvement priorities.**  
+  Classification results can help identify likely promoters and dissatisfied customers, while feature and theme analysis can show where improvement efforts should be focused. This makes the analysis useful not only for prediction, but also for customer experience planning.
 
 ## Key Visuals
 
@@ -63,13 +79,6 @@ Airlines receive large volumes of customer feedback through reviews and ratings,
 
 ### Service Feature Correlation Heatmap
 ![Service Feature Correlation Heatmap](visuals/service-feature-correlation-heatmap.png)
-
-## Business Recommendations
-
-- Prioritise service improvements around the most common negative review themes.
-- Monitor value-for-money perception as a key customer experience metric.
-- Use sentiment analysis to flag high-risk dissatisfaction patterns earlier.
-- Combine structured ratings with review text for a more complete view of customer satisfaction.
 
 ## Academic Feedback Highlights
 
