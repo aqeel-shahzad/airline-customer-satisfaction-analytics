@@ -4,6 +4,15 @@
 
 This project analyses airline customer review data to understand what drives customer recommendation behaviour. The analysis combines numerical ratings, text analytics, sentiment analysis, and machine learning to identify the service, sentiment, and value-for-money factors most associated with customer satisfaction and dissatisfaction.
 
+## Project Highlights
+
+- Analysed airline customer reviews using structured ratings and written feedback.
+- Assessed multiple service dimensions including value for money, seat comfort, cabin staff service, food and beverages, ground service, and entertainment.
+- Combined numerical ratings, sentiment analysis, text analytics, and predictive modelling in one workflow.
+- Compared multiple classification models to evaluate recommendation prediction performance.
+- Included robustness testing, threshold analysis, contradiction analysis, and model limitation discussion.
+- Python implementation received full marks in academic evaluation.
+
 ## Business Problem
 
 Airlines receive large volumes of customer feedback through reviews and ratings, but the key drivers of recommendation behaviour are not always obvious. The goal of this project is to identify which service dimensions, sentiment patterns, and text-based signals are most linked to whether a customer recommends an airline.
@@ -16,19 +25,15 @@ Airlines receive large volumes of customer feedback through reviews and ratings,
 - Build machine learning models to classify recommendation outcomes.
 - Translate analytical findings into practical business recommendations.
 
-## Tools and Methods
+## Tools, Methods, and Analytical Approach
 
-- Python
-- pandas
-- NumPy
-- scikit-learn
-- NLP and text preprocessing
-- TF-IDF
-- VADER sentiment analysis
-- RoBERTa sentiment analysis
-- Classification modelling
-- Feature importance analysis
-- Data visualisation
+- **Python:** data preparation, analysis, modelling, and visualisation.
+- **pandas and NumPy:** data cleaning, transformation, and structured analysis.
+- **NLP and text preprocessing:** review text preparation and feature extraction.
+- **VADER and RoBERTa:** sentiment analysis to compare rule-based and transformer-based approaches.
+- **TF-IDF:** text feature extraction for predictive modelling.
+- **scikit-learn:** classification modelling, model comparison, and evaluation.
+- **Feature importance analysis:** interpretation of key drivers linked to recommendation behaviour.
 
 ## Key Findings
 
@@ -36,6 +41,14 @@ Airlines receive large volumes of customer feedback through reviews and ratings,
 - Negative sentiment in review text is closely linked to non-recommendation behaviour.
 - Text analytics helped identify recurring dissatisfaction themes that were not fully visible from ratings alone.
 - Machine learning models provided a structured way to classify recommendation outcomes and interpret key drivers.
+
+## Analytical Outcomes and Decision Value
+
+- Identified service themes associated with higher and lower recommendation rates.
+- Compared classification models to assess how reliably recommendation behaviour could be predicted.
+- Used sentiment analysis to capture dissatisfaction signals beyond numerical ratings.
+- Highlighted inconsistencies between rating scores and recommendation behaviour.
+- Translated analytical findings into practical customer experience recommendations.
 
 ## Key Visuals
 
@@ -57,6 +70,12 @@ Airlines receive large volumes of customer feedback through reviews and ratings,
 - Monitor value-for-money perception as a key customer experience metric.
 - Use sentiment analysis to flag high-risk dissatisfaction patterns earlier.
 - Combine structured ratings with review text for a more complete view of customer satisfaction.
+
+## Academic Feedback Highlights
+
+This project received positive academic feedback for its strong preprocessing, audit-style explanation, and transparent handling of data quality issues. The analysis was also recognised for its depth across both numerical and textual analytics, with clear links between descriptive findings, predictive modelling, and business interpretation.
+
+Particular strengths highlighted included robustness testing, threshold analysis, contradiction analysis, hybrid modelling, and critical discussion of model limitations. The Python code received full marks, reflecting the reproducibility and technical quality of the implementation.
 
 ## Report
 
