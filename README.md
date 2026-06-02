@@ -90,7 +90,7 @@ Particular strengths highlighted included robustness testing, threshold analysis
 
 The full project report is available in the `report/` folder:
 
-[View Full Report](report/Airline-Customer-Satisfaction-Report.pdf)
+[View Full Report](report/Airline-Customer-Intelligence-Business-Report.pdf)
 
 ## Repository Structure
 
